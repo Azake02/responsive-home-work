@@ -1,0 +1,119 @@
+body {
+  background-color: rgb(193, 199, 195);
+  max-width: 80vw;
+  margin: 0 auto;
+  background-image: url(images/programmer.jpg);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.container {
+  background-color: rgb(142, 161, 161);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: orange;
+  min-height: 60px;
+  padding: 0 5px;
+  background-image: url(images/epic.jpg);
+}
+.burger-img {
+  max-width: 30px;
+  min-height: 30px;
+}
+.burger-menu {
+  display: none;
+}
+
+.logo {
+  border: 1px black solid;
+  align-self: center;
+  padding: 10px 20px;
+  border-radius: 50%;
+  background-image: url(images/back-img.jpg);
+}
+.links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.link {
+  border: 1px black solid;
+  padding: 10px 20px;
+  display: flex;
+  align-self: center;
+  justify-content: space-around;
+  background-image: url(images/back-img.jpg);
+  border-radius: 10%;
+}
+.mainWord {
+  font-size: 40px;
+  min-height: 70vh;
+  background-image: url(images/IT-industry.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(57, 119, 132);
+}
+.boxes {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: stretch;
+  justify-content: center;
+}
+.box {
+  background-color: white;
+  border-radius: 15px;
+  max-width: 20vw;
+  min-width: 250px;
+  padding: 10px;
+  position: relative;
+}
+.images {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: -25px;
+  top: -25px;
+}
+.box h3 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: auto;
+}
+.home {
+  display: block;
+  text-align: center;
+  margin: 0%;
+}
+.img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  border-radius: 50%;
+}
+
+footer {
+  background-color: rgb(46, 46, 82);
+  display: block;
+  text-align: center;
+  padding: 15px;
+  color: aliceblue;
+}
+@media screen and (max-width: 735px) {
+  .links {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}
