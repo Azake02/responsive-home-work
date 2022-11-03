@@ -1,0 +1,60 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.header {
+  background-image: url(/images2/azake.JPG);
+  background-size: cover;
+  background-position: 50% 78%;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+.life {
+  color: #fff;
+}
+.aboutMe {
+  border: solid 1px rgb(184, 174, 174);
+  margin: 20px;
+  padding: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+.img {
+  margin: 20px 0 0 0;
+  width: 30px;
+  height: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+p {
+  font-size: 14px;
+}
+.info {
+  border: solid 1px rgb(184, 174, 174);
+  margin: 20px;
+  padding: 20px;
+  font-family: "Roboto Mono", monospace;
+}
+.me {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.home {
+  text-decoration: none;
+  position: relative;
+  left: 270px;
+  top: 170px;
+}
